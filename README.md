@@ -76,13 +76,13 @@ Implementamos um fluxo robusto baseado em **ELT (Extract, Load, Transform):**
 
 ```text
 
-├── database/            # Scripts SQL para criação de tabelas e transformações (ELT)
-
-├── src/                 # Código-fonte da aplicação de ingestão em C#
-
 ├── dashboards/          # Arquivos .pbix e documentação visual
 
+├── database/            # Scripts SQL para criação de tabelas e transformações (ELT)
+
 ├── docs/                # Relatórios técnicos e metodológicos
+
+├── src/                 # Código-fonte da aplicação de ingestão em C#
 
 └── README.md            
 
