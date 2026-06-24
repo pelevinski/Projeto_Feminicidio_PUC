@@ -1,0 +1,41 @@
+# ==========================================
+# 1. Pastas de compilação do C# / .NET
+# ==========================================
+# O GitHub não precisa desses arquivos pesados que são recriados 
+# automaticamente sempre que você roda o projeto no Visual Studio.
+[Bb]in/
+[Oo]bj/
+.vs/
+*.user
+*.suo
+*.dbmdl
+*.sln.docstates
+
+# ==========================================
+# 2. Arquivos de Dados Brutos (Limites do GitHub)
+# ==========================================
+# Impede que os datasets do Kaggle/DATASUS subam acidentalmente, 
+# já que o GitHub bloqueia arquivos maiores que 100MB.
+*.csv
+*.parquet
+*.json
+*.xlsx
+*.xls
+*.zip
+
+# ==========================================
+# 3. Segurança e Senhas (Credenciais do PostgreSQL)
+# ==========================================
+# Protege as credenciais de acesso ao seu banco de dados. 
+# Nunca suba a Connection String com sua senha real.
+appsettings.Development.json
+*.env
+secrets.json
+
+# ==========================================
+# 4. Arquivos Temporários de Sistema Operacional
+# ==========================================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
