@@ -86,7 +86,7 @@ Implementamos um fluxo robusto baseado em **ELT (Extract, Load, Transform):**
 
 └── README.md            
 
-
+```
 
 **🧠 Desafios Técnicos Resolvidos**
 
